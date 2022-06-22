@@ -1,0 +1,18 @@
+<?php
+
+
+/**
+* {{description}}
+*
+* {{fullUrl}}
+*/
+class {{name}} { 
+
+  {% for attribute in attributes %}
+  /**
+     * {{attribute['description']}}
+     */
+    public {{attribute['dataType']}}{% if attribute['multiple'] %}List{% endif %} ${{attribute['id']}};
+
+  {% endfor %}
+}
