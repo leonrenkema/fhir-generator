@@ -1,4 +1,6 @@
-<?php 
+<?php
+
+use FhirGenerator\Model\Bundle;
 
 function mapType($code): string {
     switch ($code) {
@@ -20,9 +22,13 @@ $twig = new \Twig\Environment($loader, [
     'debug' => true
 ]);
 
-echo count($dataElements['entry']);
-
 $template = $twig->load('class.php.twig');
+
+$bundle = Bundle::fromJson($dataElements);
+
+var_dump($bundle);
+
+exit();
 
 foreach ($dataElements['entry'] as $entry) {
 
@@ -66,10 +72,12 @@ foreach ($dataElements['entry'] as $entry) {
     }
 
     $renderedClass = $template->render([
-        'fullUrl' => $entry['fullUrl'],
-        'name' => $entry['resource']['id'],
-        'description' => $entry['resource']['description'],
-        'attributes' => $attributes,
+        'namespace'     => 'App\Fhir\Model',
+        'fullUrl'       => $entry['fullUrl'],
+        'name'          => $entry['resource']['id'],
+        'description'   => $entry['resource']['description'],
+        'baseDefinition' => $entry['resource']['baseDefinition'],
+        'attributes'    => $attributes,
     ]);
 
     $fileName = "output/" . $entry['resource']['id'] . ".php";
