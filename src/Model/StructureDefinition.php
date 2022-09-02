@@ -1,11 +1,40 @@
 <?php
 
-namespace Model;
+namespace FhirGenerator\Model;
 
-class StructureDefinition {
+use DateTime;
+use DateTimeImmutable;
 
-    public string $fullUrl;
+class StructureDefinition extends Resource {
+
+    public string $url;
     
-    public string $id;
+    public string $version;
 
+    public string $name;
+
+    public PublicationStatus $status;
+
+    public DateTimeImmutable $date;
+
+    public string $publisher;
+
+    public string $kind;
+
+    public bool $abstract;
+
+    public static function fromJson($j): self 
+    {
+    
+        $b = new self();
+    //    $b->fullUrl = $j['fullUrl'];
+        $b->id = $j['id'];
+        $b->url = $j['url'];
+        $b->url = $j['version'];
+        $b->status = PublicationStatus::from($j['status']);
+
+        var_dump($j['snapshot']['element']);
+
+        return $b;
+    }
 }

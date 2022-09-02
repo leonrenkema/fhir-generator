@@ -12,7 +12,10 @@ class BundleEntry {
         $b = new BundleEntry();
         
         $b->fullUrl = $inputJson['fullUrl'];
-        $b->resource = Resource::fromJson($inputJson['resource']);
+
+        $resourceType = 'FhirGenerator\\Model\\' . $inputJson['resource']['resourceType'];
+        $b->resource = $resourceType::fromJson($inputJson['resource']);
+        //$b->resource = Resource::fromJson($inputJson['resource']);
 
         return $b;
     }

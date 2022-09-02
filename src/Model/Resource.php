@@ -8,6 +8,8 @@ class Resource {
 
     public string $id;
 
+    public string $language;
+
     public static function fromJson(array $inputJson) : Resource {
 
         $b = new Resource();
