@@ -1,0 +1,837 @@
+object(FhirGenerator\Model\Bundle)#13 (3) {
+  ["id"]=>
+  string(5) "types"
+  ["type"]=>
+  string(10) "collection"
+  ["entry"]=>
+  array(69) {
+    [0]=>
+    object(FhirGenerator\Model\BundleEntry)#14 (2) {
+      ["fullUrl"]=>
+      string(47) "http://hl7.org/fhir/StructureDefinition/Element"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#15 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(7) "Element"
+      }
+    }
+    [1]=>
+    object(FhirGenerator\Model\BundleEntry)#16 (2) {
+      ["fullUrl"]=>
+      string(55) "http://hl7.org/fhir/StructureDefinition/BackboneElement"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#17 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(15) "BackboneElement"
+      }
+    }
+    [2]=>
+    object(FhirGenerator\Model\BundleEntry)#18 (2) {
+      ["fullUrl"]=>
+      string(52) "http://hl7.org/fhir/StructureDefinition/base64Binary"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#19 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(12) "base64Binary"
+      }
+    }
+    [3]=>
+    object(FhirGenerator\Model\BundleEntry)#20 (2) {
+      ["fullUrl"]=>
+      string(47) "http://hl7.org/fhir/StructureDefinition/boolean"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#21 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(7) "boolean"
+      }
+    }
+    [4]=>
+    object(FhirGenerator\Model\BundleEntry)#22 (2) {
+      ["fullUrl"]=>
+      string(49) "http://hl7.org/fhir/StructureDefinition/canonical"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#23 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(9) "canonical"
+      }
+    }
+    [5]=>
+    object(FhirGenerator\Model\BundleEntry)#24 (2) {
+      ["fullUrl"]=>
+      string(44) "http://hl7.org/fhir/StructureDefinition/code"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#25 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(4) "code"
+      }
+    }
+    [6]=>
+    object(FhirGenerator\Model\BundleEntry)#26 (2) {
+      ["fullUrl"]=>
+      string(44) "http://hl7.org/fhir/StructureDefinition/date"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#27 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(4) "date"
+      }
+    }
+    [7]=>
+    object(FhirGenerator\Model\BundleEntry)#28 (2) {
+      ["fullUrl"]=>
+      string(48) "http://hl7.org/fhir/StructureDefinition/dateTime"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#29 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(8) "dateTime"
+      }
+    }
+    [8]=>
+    object(FhirGenerator\Model\BundleEntry)#30 (2) {
+      ["fullUrl"]=>
+      string(47) "http://hl7.org/fhir/StructureDefinition/decimal"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#31 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(7) "decimal"
+      }
+    }
+    [9]=>
+    object(FhirGenerator\Model\BundleEntry)#32 (2) {
+      ["fullUrl"]=>
+      string(42) "http://hl7.org/fhir/StructureDefinition/id"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#33 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(2) "id"
+      }
+    }
+    [10]=>
+    object(FhirGenerator\Model\BundleEntry)#34 (2) {
+      ["fullUrl"]=>
+      string(47) "http://hl7.org/fhir/StructureDefinition/instant"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#35 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(7) "instant"
+      }
+    }
+    [11]=>
+    object(FhirGenerator\Model\BundleEntry)#36 (2) {
+      ["fullUrl"]=>
+      string(47) "http://hl7.org/fhir/StructureDefinition/integer"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#37 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(7) "integer"
+      }
+    }
+    [12]=>
+    object(FhirGenerator\Model\BundleEntry)#38 (2) {
+      ["fullUrl"]=>
+      string(49) "http://hl7.org/fhir/StructureDefinition/integer64"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#39 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(9) "integer64"
+      }
+    }
+    [13]=>
+    object(FhirGenerator\Model\BundleEntry)#40 (2) {
+      ["fullUrl"]=>
+      string(48) "http://hl7.org/fhir/StructureDefinition/markdown"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#41 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(8) "markdown"
+      }
+    }
+    [14]=>
+    object(FhirGenerator\Model\BundleEntry)#42 (2) {
+      ["fullUrl"]=>
+      string(43) "http://hl7.org/fhir/StructureDefinition/oid"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#43 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(3) "oid"
+      }
+    }
+    [15]=>
+    object(FhirGenerator\Model\BundleEntry)#44 (2) {
+      ["fullUrl"]=>
+      string(51) "http://hl7.org/fhir/StructureDefinition/positiveInt"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#45 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(11) "positiveInt"
+      }
+    }
+    [16]=>
+    object(FhirGenerator\Model\BundleEntry)#46 (2) {
+      ["fullUrl"]=>
+      string(46) "http://hl7.org/fhir/StructureDefinition/string"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#47 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(6) "string"
+      }
+    }
+    [17]=>
+    object(FhirGenerator\Model\BundleEntry)#48 (2) {
+      ["fullUrl"]=>
+      string(44) "http://hl7.org/fhir/StructureDefinition/time"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#49 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(4) "time"
+      }
+    }
+    [18]=>
+    object(FhirGenerator\Model\BundleEntry)#50 (2) {
+      ["fullUrl"]=>
+      string(51) "http://hl7.org/fhir/StructureDefinition/unsignedInt"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#51 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(11) "unsignedInt"
+      }
+    }
+    [19]=>
+    object(FhirGenerator\Model\BundleEntry)#52 (2) {
+      ["fullUrl"]=>
+      string(43) "http://hl7.org/fhir/StructureDefinition/uri"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#53 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(3) "uri"
+      }
+    }
+    [20]=>
+    object(FhirGenerator\Model\BundleEntry)#54 (2) {
+      ["fullUrl"]=>
+      string(43) "http://hl7.org/fhir/StructureDefinition/url"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#55 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(3) "url"
+      }
+    }
+    [21]=>
+    object(FhirGenerator\Model\BundleEntry)#56 (2) {
+      ["fullUrl"]=>
+      string(44) "http://hl7.org/fhir/StructureDefinition/uuid"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#57 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(4) "uuid"
+      }
+    }
+    [22]=>
+    object(FhirGenerator\Model\BundleEntry)#58 (2) {
+      ["fullUrl"]=>
+      string(45) "http://hl7.org/fhir/StructureDefinition/xhtml"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#59 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(5) "xhtml"
+      }
+    }
+    [23]=>
+    object(FhirGenerator\Model\BundleEntry)#60 (2) {
+      ["fullUrl"]=>
+      string(47) "http://hl7.org/fhir/StructureDefinition/Address"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#61 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(7) "Address"
+      }
+    }
+    [24]=>
+    object(FhirGenerator\Model\BundleEntry)#62 (2) {
+      ["fullUrl"]=>
+      string(43) "http://hl7.org/fhir/StructureDefinition/Age"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#63 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(3) "Age"
+      }
+    }
+    [25]=>
+    object(FhirGenerator\Model\BundleEntry)#64 (2) {
+      ["fullUrl"]=>
+      string(50) "http://hl7.org/fhir/StructureDefinition/Annotation"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#65 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(10) "Annotation"
+      }
+    }
+    [26]=>
+    object(FhirGenerator\Model\BundleEntry)#66 (2) {
+      ["fullUrl"]=>
+      string(50) "http://hl7.org/fhir/StructureDefinition/Attachment"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#67 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(10) "Attachment"
+      }
+    }
+    [27]=>
+    object(FhirGenerator\Model\BundleEntry)#68 (2) {
+      ["fullUrl"]=>
+      string(52) "http://hl7.org/fhir/StructureDefinition/BackboneType"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#69 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(12) "BackboneType"
+      }
+    }
+    [28]=>
+    object(FhirGenerator\Model\BundleEntry)#70 (2) {
+      ["fullUrl"]=>
+      string(44) "http://hl7.org/fhir/StructureDefinition/Base"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#71 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(4) "Base"
+      }
+    }
+    [29]=>
+    object(FhirGenerator\Model\BundleEntry)#72 (2) {
+      ["fullUrl"]=>
+      string(55) "http://hl7.org/fhir/StructureDefinition/CodeableConcept"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#73 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(15) "CodeableConcept"
+      }
+    }
+    [30]=>
+    object(FhirGenerator\Model\BundleEntry)#74 (2) {
+      ["fullUrl"]=>
+      string(57) "http://hl7.org/fhir/StructureDefinition/CodeableReference"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#75 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(17) "CodeableReference"
+      }
+    }
+    [31]=>
+    object(FhirGenerator\Model\BundleEntry)#76 (2) {
+      ["fullUrl"]=>
+      string(46) "http://hl7.org/fhir/StructureDefinition/Coding"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#77 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(6) "Coding"
+      }
+    }
+    [32]=>
+    object(FhirGenerator\Model\BundleEntry)#78 (2) {
+      ["fullUrl"]=>
+      string(53) "http://hl7.org/fhir/StructureDefinition/ContactDetail"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#79 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(13) "ContactDetail"
+      }
+    }
+    [33]=>
+    object(FhirGenerator\Model\BundleEntry)#80 (2) {
+      ["fullUrl"]=>
+      string(52) "http://hl7.org/fhir/StructureDefinition/ContactPoint"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#81 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(12) "ContactPoint"
+      }
+    }
+    [34]=>
+    object(FhirGenerator\Model\BundleEntry)#82 (2) {
+      ["fullUrl"]=>
+      string(51) "http://hl7.org/fhir/StructureDefinition/Contributor"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#83 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(11) "Contributor"
+      }
+    }
+    [35]=>
+    object(FhirGenerator\Model\BundleEntry)#84 (2) {
+      ["fullUrl"]=>
+      string(45) "http://hl7.org/fhir/StructureDefinition/Count"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#85 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(5) "Count"
+      }
+    }
+    [36]=>
+    object(FhirGenerator\Model\BundleEntry)#86 (2) {
+      ["fullUrl"]=>
+      string(55) "http://hl7.org/fhir/StructureDefinition/DataRequirement"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#87 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(15) "DataRequirement"
+      }
+    }
+    [37]=>
+    object(FhirGenerator\Model\BundleEntry)#88 (2) {
+      ["fullUrl"]=>
+      string(48) "http://hl7.org/fhir/StructureDefinition/DataType"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#89 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(8) "DataType"
+      }
+    }
+    [38]=>
+    object(FhirGenerator\Model\BundleEntry)#90 (2) {
+      ["fullUrl"]=>
+      string(48) "http://hl7.org/fhir/StructureDefinition/Distance"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#91 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(8) "Distance"
+      }
+    }
+    [39]=>
+    object(FhirGenerator\Model\BundleEntry)#92 (2) {
+      ["fullUrl"]=>
+      string(46) "http://hl7.org/fhir/StructureDefinition/Dosage"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#93 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(6) "Dosage"
+      }
+    }
+    [40]=>
+    object(FhirGenerator\Model\BundleEntry)#94 (2) {
+      ["fullUrl"]=>
+      string(48) "http://hl7.org/fhir/StructureDefinition/Duration"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#95 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(8) "Duration"
+      }
+    }
+    [41]=>
+    object(FhirGenerator\Model\BundleEntry)#96 (2) {
+      ["fullUrl"]=>
+      string(57) "http://hl7.org/fhir/StructureDefinition/ElementDefinition"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#97 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(17) "ElementDefinition"
+      }
+    }
+    [42]=>
+    object(FhirGenerator\Model\BundleEntry)#98 (2) {
+      ["fullUrl"]=>
+      string(50) "http://hl7.org/fhir/StructureDefinition/Expression"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#99 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(10) "Expression"
+      }
+    }
+    [43]=>
+    object(FhirGenerator\Model\BundleEntry)#100 (2) {
+      ["fullUrl"]=>
+      string(61) "http://hl7.org/fhir/StructureDefinition/ExtendedContactDetail"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#101 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(21) "ExtendedContactDetail"
+      }
+    }
+    [44]=>
+    object(FhirGenerator\Model\BundleEntry)#102 (2) {
+      ["fullUrl"]=>
+      string(49) "http://hl7.org/fhir/StructureDefinition/Extension"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#103 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(9) "Extension"
+      }
+    }
+    [45]=>
+    object(FhirGenerator\Model\BundleEntry)#104 (2) {
+      ["fullUrl"]=>
+      string(49) "http://hl7.org/fhir/StructureDefinition/HumanName"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#105 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(9) "HumanName"
+      }
+    }
+    [46]=>
+    object(FhirGenerator\Model\BundleEntry)#106 (2) {
+      ["fullUrl"]=>
+      string(50) "http://hl7.org/fhir/StructureDefinition/Identifier"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#107 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(10) "Identifier"
+      }
+    }
+    [47]=>
+    object(FhirGenerator\Model\BundleEntry)#108 (2) {
+      ["fullUrl"]=>
+      string(55) "http://hl7.org/fhir/StructureDefinition/MarketingStatus"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#109 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(15) "MarketingStatus"
+      }
+    }
+    [48]=>
+    object(FhirGenerator\Model\BundleEntry)#110 (2) {
+      ["fullUrl"]=>
+      string(44) "http://hl7.org/fhir/StructureDefinition/Meta"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#111 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(4) "Meta"
+      }
+    }
+    [49]=>
+    object(FhirGenerator\Model\BundleEntry)#112 (2) {
+      ["fullUrl"]=>
+      string(45) "http://hl7.org/fhir/StructureDefinition/Money"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#113 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(5) "Money"
+      }
+    }
+    [50]=>
+    object(FhirGenerator\Model\BundleEntry)#114 (2) {
+      ["fullUrl"]=>
+      string(49) "http://hl7.org/fhir/StructureDefinition/Narrative"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#115 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(9) "Narrative"
+      }
+    }
+    [51]=>
+    object(FhirGenerator\Model\BundleEntry)#116 (2) {
+      ["fullUrl"]=>
+      string(59) "http://hl7.org/fhir/StructureDefinition/ParameterDefinition"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#117 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(19) "ParameterDefinition"
+      }
+    }
+    [52]=>
+    object(FhirGenerator\Model\BundleEntry)#118 (2) {
+      ["fullUrl"]=>
+      string(46) "http://hl7.org/fhir/StructureDefinition/Period"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#119 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(6) "Period"
+      }
+    }
+    [53]=>
+    object(FhirGenerator\Model\BundleEntry)#120 (2) {
+      ["fullUrl"]=>
+      string(50) "http://hl7.org/fhir/StructureDefinition/Population"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#121 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(10) "Population"
+      }
+    }
+    [54]=>
+    object(FhirGenerator\Model\BundleEntry)#122 (2) {
+      ["fullUrl"]=>
+      string(53) "http://hl7.org/fhir/StructureDefinition/PrimitiveType"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#123 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(13) "PrimitiveType"
+      }
+    }
+    [55]=>
+    object(FhirGenerator\Model\BundleEntry)#124 (2) {
+      ["fullUrl"]=>
+      string(56) "http://hl7.org/fhir/StructureDefinition/ProductShelfLife"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#125 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(16) "ProductShelfLife"
+      }
+    }
+    [56]=>
+    object(FhirGenerator\Model\BundleEntry)#126 (2) {
+      ["fullUrl"]=>
+      string(48) "http://hl7.org/fhir/StructureDefinition/Quantity"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#127 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(8) "Quantity"
+      }
+    }
+    [57]=>
+    object(FhirGenerator\Model\BundleEntry)#128 (2) {
+      ["fullUrl"]=>
+      string(45) "http://hl7.org/fhir/StructureDefinition/Range"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#129 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(5) "Range"
+      }
+    }
+    [58]=>
+    object(FhirGenerator\Model\BundleEntry)#130 (2) {
+      ["fullUrl"]=>
+      string(45) "http://hl7.org/fhir/StructureDefinition/Ratio"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#131 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(5) "Ratio"
+      }
+    }
+    [59]=>
+    object(FhirGenerator\Model\BundleEntry)#132 (2) {
+      ["fullUrl"]=>
+      string(50) "http://hl7.org/fhir/StructureDefinition/RatioRange"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#133 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(10) "RatioRange"
+      }
+    }
+    [60]=>
+    object(FhirGenerator\Model\BundleEntry)#134 (2) {
+      ["fullUrl"]=>
+      string(49) "http://hl7.org/fhir/StructureDefinition/Reference"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#135 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(9) "Reference"
+      }
+    }
+    [61]=>
+    object(FhirGenerator\Model\BundleEntry)#136 (2) {
+      ["fullUrl"]=>
+      string(55) "http://hl7.org/fhir/StructureDefinition/RelatedArtifact"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#137 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(15) "RelatedArtifact"
+      }
+    }
+    [62]=>
+    object(FhirGenerator\Model\BundleEntry)#138 (2) {
+      ["fullUrl"]=>
+      string(51) "http://hl7.org/fhir/StructureDefinition/SampledData"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#139 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(11) "SampledData"
+      }
+    }
+    [63]=>
+    object(FhirGenerator\Model\BundleEntry)#140 (2) {
+      ["fullUrl"]=>
+      string(49) "http://hl7.org/fhir/StructureDefinition/Signature"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#141 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(9) "Signature"
+      }
+    }
+    [64]=>
+    object(FhirGenerator\Model\BundleEntry)#142 (2) {
+      ["fullUrl"]=>
+      string(46) "http://hl7.org/fhir/StructureDefinition/Timing"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#143 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(6) "Timing"
+      }
+    }
+    [65]=>
+    object(FhirGenerator\Model\BundleEntry)#144 (2) {
+      ["fullUrl"]=>
+      string(57) "http://hl7.org/fhir/StructureDefinition/TriggerDefinition"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#145 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(17) "TriggerDefinition"
+      }
+    }
+    [66]=>
+    object(FhirGenerator\Model\BundleEntry)#146 (2) {
+      ["fullUrl"]=>
+      string(52) "http://hl7.org/fhir/StructureDefinition/UsageContext"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#147 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(12) "UsageContext"
+      }
+    }
+    [67]=>
+    object(FhirGenerator\Model\BundleEntry)#148 (2) {
+      ["fullUrl"]=>
+      string(53) "http://hl7.org/fhir/StructureDefinition/MoneyQuantity"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#149 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(13) "MoneyQuantity"
+      }
+    }
+    [68]=>
+    object(FhirGenerator\Model\BundleEntry)#150 (2) {
+      ["fullUrl"]=>
+      string(54) "http://hl7.org/fhir/StructureDefinition/SimpleQuantity"
+      ["resource"]=>
+      object(FhirGenerator\Model\Resource)#151 (2) {
+        ["resourceType"]=>
+        string(19) "StructureDefinition"
+        ["id"]=>
+        string(14) "SimpleQuantity"
+      }
+    }
+  }
+}

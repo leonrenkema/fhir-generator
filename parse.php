@@ -10,8 +10,6 @@ function mapType($code): string {
     return $code;
 }
 
-
-
 require_once "vendor/autoload.php";
 
 $dataElements = json_decode(file_get_contents("definitions/profiles-types.json"), true);
@@ -26,9 +24,6 @@ $template = $twig->load('class.php.twig');
 
 $bundle = Bundle::fromJson($dataElements);
 
-var_dump($bundle);
-
-exit();
 
 foreach ($dataElements['entry'] as $entry) {
 
@@ -76,7 +71,7 @@ foreach ($dataElements['entry'] as $entry) {
         'fullUrl'       => $entry['fullUrl'],
         'name'          => $entry['resource']['id'],
         'description'   => $entry['resource']['description'],
-        'baseDefinition' => $entry['resource']['baseDefinition'],
+        // 'baseDefinition' => $entry['resource']['baseDefinition'],
         'attributes'    => $attributes,
     ]);
 
@@ -85,6 +80,6 @@ foreach ($dataElements['entry'] as $entry) {
 
 
     foreach ($listsToMake as $listToMake) {
-        var_dump($listToMake);
+        //var_dump($listToMake);
     }
 }

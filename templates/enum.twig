@@ -1,0 +1,15 @@
+<?php
+
+namespace {{namespace}};
+
+/**
+* {{description}}
+*
+* {{fullUrl}}
+*/
+enum {{name}}: string { 
+
+  {% for enumCase in enumValues %}
+  case {{enumCase.name}} = '{{enumCase.value}}';
+  {% endfor %}
+}

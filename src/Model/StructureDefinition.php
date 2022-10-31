@@ -33,7 +33,7 @@ class StructureDefinition extends Resource {
         $b->url = $j['version'];
         $b->status = PublicationStatus::from($j['status']);
 
-        var_dump($j['snapshot']['element']);
+//        var_dump($j['snapshot']['element']);
 
         return $b;
     }
